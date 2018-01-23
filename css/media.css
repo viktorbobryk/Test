@@ -1,0 +1,286 @@
+@media only screen and (max-width : 1200px) {
+    .header-wrapper .search-bar {
+        left: calc(50% - 370px);
+        max-width: 740px;
+    }
+    #first, #second {
+        max-width: 240px;
+        padding-left: 15px;
+    }
+    #third {
+        max-width: 144px;
+        padding-left: 15px;
+    }
+    .main-wrapper .trips .text-wrapper {
+        border-bottom: none;
+        border-top: none;
+        border-right: none;
+    }
+    .main-wrapper .trips .text-wrapper h3 {
+        margin: 0 0 10px;
+    }
+
+}
+@media only screen and (max-width : 992px) {
+    h1{
+        font-size: 55px;
+    }
+    .main-wrapper .flights ul {
+        margin-bottom: 0;
+    }
+    .main-wrapper h2 {
+        display: block;
+        text-align: center;
+    }
+    .main-wrapper nav.section-menu-wrapper {
+        width: 100%;
+        float: none;
+    }
+    .main-wrapper .section-menu-wrapper ul {
+        text-align: center;
+    }
+    .button {
+        width: 100px;
+    }
+    .col-wide1 {
+        padding: 46px 0 17px 5px;
+    }
+    .col-wide2 {
+        padding: 46px 0 17px 5px;
+    }
+    .col-narrow {
+        padding: 46px 0 17px 5px;
+    }
+    .bg-vueling, .bg-AF, .bg-AA, .bg-Delta, .bg-Transavia {
+        padding-left: 50px;
+    }
+    .footer-wrapper ul li a {
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width : 768px) {
+    .icon {
+        display: block;
+    }
+    .main-menu-wrapper {
+        display: none;
+    }
+    .header-wrapper {
+        min-height: 630px;
+    }
+    .header-wrapper .main-menu {
+        display: none;
+    }
+    h1{
+        font-size: 50px;
+        margin: 100px 0 40px;
+    }
+    .header-wrapper .brand {
+        margin-top: 20px;
+    }
+    .header-wrapper .search-bar {
+        bottom: 25px;
+        left: calc(50% - 150px);
+        max-width: 300px;
+    }
+    #first, #second {
+        max-width: 300px;
+        margin-bottom: -1px;
+        padding-left: 0;
+        text-align: center;
+    }
+    #third {
+        max-width: 300px;
+        margin-bottom: -1px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .button-search {
+        width: 100%;
+    }
+    .main-wrapper .flights h3 {
+        font-size: 14px;
+    }
+    .main-wrapper .flights .title-regular-b,
+    .main-wrapper .flights .title-regular-g {
+        font-size: 13px;
+    }
+    .main-wrapper .col-wide1,
+    .main-wrapper .col-wide2 {
+        width: 16.6%;
+        padding-left: 0;
+    }
+    .main-wrapper .col-narrow {
+        width: 16.7%;
+    }
+    .main-wrapper .col-wide2 .button {
+        width: 70px;
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-size: 13px;
+    }
+    .main-wrapper .bg-vueling,
+    .main-wrapper .bg-AF,
+    .main-wrapper .bg-AA,
+    .main-wrapper .bg-Delta,
+    .main-wrapper .bg-Transavia {
+        background: none;
+    }
+    .main-wrapper .flights {
+        margin-top: 75px;
+    }
+    .main-wrapper .flights a.see-all {
+        margin-top: 37px;
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+    .main-wrapper .hotels .see-all,
+    .main-wrapper .attraction .see-all,
+    .main-wrapper .trips .see-all {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .main-wrapper .hotels h2,
+    .main-wrapper .attraction h2,
+    .main-wrapper .trips h2 {
+        margin-bottom: 25px;
+    }
+    .main-wrapper .trips .trips-item {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .main-wrapper .trips .thumb {
+        width: 100%;
+    }
+    .main-wrapper .trips .text-wrapper {
+        width: 100%;
+        padding: 20px 10px 10px;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    .footer-wrapper h2 a {
+        font-size: 20px;
+    }
+    .footer-wrapper ul li a {
+        word-break: break-all;
+    }
+    .footer-wrapper .f-text {
+        display: none;
+    }
+    .footer-wrapper h2 {
+        font-size: 25px;
+    }
+    .footer-wrapper .f-contact {
+        display: inline-block;
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    .footer-wrapper .last-column {
+        display: inline-block;
+        float: right;
+    }
+    /* Target Firefox only */
+    @-moz-document url-prefix() {
+        .main-wrapper .col-wide2 .button {
+            margin-bottom: 15px;
+        }
+        }
+}
+@media only screen and (max-width : 480px) {
+    .button {
+        height: 30px;
+        line-height: 30px;
+    }
+    .header-wrapper {
+        min-height: 500px;
+    }
+    h1{
+        font-size: 40px;
+        margin: 35px 0 35px;
+    }
+    .header-wrapper .search-bar {
+        bottom: 30px;
+    }
+    .main-wrapper .flights {
+        margin-top: 30px;
+    }
+    .main-wrapper .flights h3,
+    .main-wrapper .flights .title-regular-b,
+    .main-wrapper .flights .title-regular-g {
+        font-size: 11px;
+    }
+    .main-wrapper .flights a.title-regular-b {
+        font-size: 14px;
+    }
+    .main-wrapper .flights a.see-all {
+        margin-top: 18px;
+        font-size: 16px;
+    }
+    .main-wrapper .hotels .see-all,
+    .main-wrapper .attraction .see-all,
+    .main-wrapper .trips .see-all {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .main-wrapper .col-wide1 {
+        width: 20%;
+        word-break: break-all;
+        border-bottom: none;
+        padding: 10px 3px 10px 0;
+    }
+    .main-wrapper .col-narrow {
+        width: 20%;
+        word-break: break-all;
+        border-bottom: none;
+        padding: 10px 3px 10px 0;
+        }
+    .main-wrapper .col-wide1 {
+        width: 22%;
+    }
+    .main-wrapper .col-narrow:nth-child(3) {
+        width: 23%;
+    }
+    .main-wrapper .col-narrow:nth-child(4) {
+        width: 15%;
+    }
+    .main-wrapper .col-wide2 {
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    .main-wrapper .col-wide2 .button {
+        width: 180px;
+        font-size: 12px;
+    }
+    .main-wrapper .col-wide2 .price {
+        display: none;
+    }
+    .main-wrapper .hotels .thumb,
+    .main-wrapper .attraction .thumb,
+    .main-wrapper .trips .trips-item {
+        margin-bottom: 15px;
+    }
+    .main-wrapper .trips .text-wrapper h3 {
+        margin: 0 0 10px;
+    }
+    .footer-wrapper h2 {
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .footer-wrapper ul li a {
+        font-size: 12px;
+    }
+    .footer-wrapper .column {
+        padding-left: 0;
+    }
+    .footer-wrapper .contact-us {
+        border-top: 1px solid #ccc;
+    }
+    .footer-wrapper .contact-us .f-contact {
+        font-size: 12px;
+    }
+}
